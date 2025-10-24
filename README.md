@@ -1,12 +1,4 @@
-Data Processing Techniques Final Assessment
-
-Folder Structure:
-- Data_Preprocessing: Spark preprocessing code & sample dataset
-- RealTime_Data_Streaming: Kafka producer & consumer for streaming data
-- Incremental_Data_Processing: CDC incremental processing with Kafka
-- InMemory_Data_Processing: Spark in-memory analytics
-
-Tools Used:
-- Apache Spark
-- Apache Kafka
-- Python (with pyspark, kafka-python, scikit-learn)
+Instructions:
+1. Run Kafka and MySQL.
+2. Start the CDC connector with the cdc_connector.json configuration.
+3. Run incremental_processing.py to process new data and update the model incrementally.
